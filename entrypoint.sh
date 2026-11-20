@@ -17,7 +17,7 @@ cat > /etc/xray/config.json <<INNER_EOF
         "clients": [{"id": "$UUID", "level": 0}],
         "decryption": "none"
       },
-      "streamSettings": {"network": "ws", "wsSettings": {"path": "/vless"}}
+      "streamSettings": {"network": "ws", "wsSettings": {"path": "/ws"}}
     }
   ],
   "outbounds": [{"protocol": "freedom"}]
